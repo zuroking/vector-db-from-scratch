@@ -132,3 +132,7 @@ All 6 planned development phases are complete:
 See [AUDIT.md](AUDIT.md) for accepted assumptions, known limitations,
 and future optimization vectors (quantization, disk-based ANN, parallel
 construction, norm caching).
+
+---
+ 
+*Implemented with Claude Code, under an architect-reviewed decision-locking process (see [ARCHITECTURE.md](ARCHITECTURE.md)).*

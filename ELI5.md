@@ -1,5 +1,7 @@
 # 🚀 Vector Database from Scratch: Explain Like I'm 5 (ELI5)
 
+*[⬅ Back to main README](README.md)* | *[🇷🇺 Русская версия](ELI5_ru.md)*
+
 Imagine you have a massive library, but the books aren't arranged alphabetically; they are arranged by meaning: sci-fi is right next to books about space, and cooking is next to healthy eating. The `vector-db-from-scratch` project does exactly this, but for a computer!
 
 ## 🧠 How the computer understands "meaning"
@@ -17,7 +19,7 @@ That's why the project uses a cool algorithm called **HNSW**. Imagine you're loo
 
 This method allows the database to find the closest "neighbors" incredibly fast, skipping over huge distances in milliseconds.
 
-## 🛠️ Why is this pro-level?
+## 🛠️ Why is this cool?
 Instead of using ready-made building blocks (like popular libraries FAISS or Chroma), the whole system was built completely from scratch. It's like assembling a real car engine with your own hands to thoroughly understand how it works.
 
 * **No cheating:** Only the basic `numpy` library was used for math. No third-party search helpers!
@@ -26,3 +28,6 @@ Instead of using ready-made building blocks (like popular libraries FAISS or Chr
 * **Perfect reliability:** The project is 100% covered by automated tests. Every single line of code was checked for errors.
 
 Essentially, this project shows not just the ability to use ready-made tools, but a deep understanding of complex machine learning algorithms and data structures!
+
+---
+*💡 Ready for the technical details? Check out [ARCHITECTURE.md](ARCHITECTURE.md) and [AUDIT.md](AUDIT.md) to see how it works under the hood.*
